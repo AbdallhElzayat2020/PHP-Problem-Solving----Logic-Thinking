@@ -57,7 +57,7 @@ HireDriver(20, false); //Rejected Driver
 ////////////////////////////////
 
 //write a Programme Hire a Driver if have Driver License and Age > 21 And if have wasta Hired Directly or Not
-
+/*
 function HireDriver($age, $license, $wasta): void
 {
     if ($wasta) {
@@ -75,3 +75,4 @@ HireDriver(20, false, 1); //Hire Driver
 HireDriver(21, false, 0); //Rejected Driver
 HireDriver(20, true, 0); //Rejected Driver
 HireDriver(20, false, 0); //Rejected Driver
+*/
