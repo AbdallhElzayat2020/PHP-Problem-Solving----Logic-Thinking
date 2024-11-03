@@ -68,9 +68,18 @@ echo $m . "<br>"; //10
 
 
 // Declare Function In php
-function Calc(int $val1, int $val2): mixed
+// function Calc(int $val1, int $val2): int
+// function Calc(int $val1, int $val2): string
+// function Calc(int $val1, int $val2): array
+// function Calc(int $val1, int $val2): mixed
+// Return Type Of Function
+function Calc(int $val1, int $val2): object
 {
-    return $val1 + $val2;
+    $obj = new stdClass;
+
+    $obj->total = $val1 + $val2;
+
+    return $obj;
 }
 
 
@@ -80,4 +89,4 @@ $y = "20";
 
 $calc = Calc($x, $y);
 // echo $calc;
-var_dump($calc);
+var_dump($calc->total);
