@@ -1,7 +1,6 @@
 <?php
 
-// add two operands 
-
+/*
 // sum
 $a = 10;
 $b = 20;
@@ -41,3 +40,17 @@ $b = 20;
 
 $m = $a % $b;
 echo $m . "<br>"; //10
+*/
+
+// $a = 10;
+// $b = 20;
+// echo $a++;
+// echo "<br>";
+// echo ++$a;
+// echo "<br>";
+// echo $a--;
+// echo "<br>";
+// echo --$a;
+// echo "<br>";
+// echo $a += $b;
+// echo "<br>";
