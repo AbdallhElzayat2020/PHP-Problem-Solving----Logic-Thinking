@@ -116,24 +116,97 @@ echo $m . "<br>"; //10
 // scope in functions
 
 
-$x = "10";
-$y = "20";
+// $x = "10";
+// $y = "20";
 
-// Global Scope
-function Calc()
-{
-    // local Scope
-    // $x = 20;
-    // $y = 20;
-    // echo $x * $y;
+// // Global Scope
+// function Calc()
+// {
+//     // local Scope
+//     // $x = 20;
+//     // $y = 20;
+//     // echo $x * $y;
 
-    // global $x, $y;
-    // echo $GLOBALS["x"];
+//     // global $x, $y;
+//     // echo $GLOBALS["x"];
 
-    // Static Scope
-    static $x = 20;
-    static $y = 20;
-    echo $x * $y;
-}
+//     // Static Scope
+//     static $x = 20;
+//     static $y = 20;
+//     echo $x * $y;
+// }
 
-Calc();
+// Calc();
+
+
+// Build in Function PHP
+
+//Count words in string   str_word_count
+
+// $a = "Hello World";
+// echo str_word_count($a);
+
+
+// count Numbers of elements in array
+// $arr = ['php', 'laravel', 'HTML', 'CSS'];
+
+// echo count($arr);
+
+
+// // Replace word in string
+// $a = 'Welcome to PHP';
+// replace to word for in
+
+// // searchWord   word replace  Place
+// echo str_replace('to', 'in', $a);
+
+// $result = explode(' ', $a);
+
+// var_dump($result);
+
+// echo $result[0];
+
+// //////////////////////////////
+
+// $arr = ['php', 'laravel'];
+
+// echo implode(' ', $arr);
+
+/////////////////////////////////////
+// $final = '|PHP V8|';
+
+// $final = ltrim($final, '|');
+// $final = rtrim($final, '|');
+
+// echo $final;
+
+// $b = 'WELCOME TO PHP';
+
+// echo strtolower($b); // lower case Letters
+// echo strtoupper($b); // Upper case Letters
+// echo strlen($b);
+
+
+$arr = ['php', 'laravel'];
+$a = 'Hello from php';
+
+// Option 1: Print the array using print_r() or var_dump()
+// $result = explode(' ', $a);
+
+// print_r($result);
+
+
+
+//  Option 3: If you want to show all elements with a separator
+
+
+// echo implode(',', $arr);  // remove , or separator between '' prints "Hello, from, php"
+
+echo $result = implode(',', $arr);
+
+// الخلاصة بالعربي اهوة 
+// الاتنين بيقصو وبقلهم في اول بارمتير قص من اول كذا والحاجة التانية بقلو قص في المتغير او المصفوفة دي 
+
+// explode => convert string to array   => explode(' ', $a)
+
+// implode => convert array to string   => implode(',', $arr)
