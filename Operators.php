@@ -68,9 +68,16 @@ echo $m . "<br>"; //10
 
 
 // Declare Function In php
-function Calc($x, $y): void
+function Calc(int $val1, int $val2): mixed
 {
-    echo $x + $y;
-};
+    return $val1 + $val2;
+}
 
-Calc(10, 20);
+
+$x = "10";
+$y = "20";
+
+
+$calc = Calc($x, $y);
+// echo $calc;
+var_dump($calc);
