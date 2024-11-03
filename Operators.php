@@ -73,20 +73,39 @@ echo $m . "<br>"; //10
 // function Calc(int $val1, int $val2): array
 // function Calc(int $val1, int $val2): mixed
 // Return Type Of Function
-function Calc(int $val1, int $val2): object
-{
-    $obj = new stdClass;
+// function Calc(int $val1, int $val2): object
+// {
+//     $obj = new stdClass;
 
-    $obj->total = $val1 + $val2;
+//     $obj->total = $val1 + $val2;
+//     // $obj->total = $val1 + $val2;
 
-    return $obj;
-}
-
-
-$x = "10";
-$y = "20";
+//     return $obj;
+// }
 
 
-$calc = Calc($x, $y);
-// echo $calc;
-var_dump($calc->total);
+// $x = "10";
+// $y = "20";
+
+
+// $calc = Calc($x, $y);
+// // echo $calc;
+// var_dump($calc->total);
+
+
+
+// Argument Of Function
+
+// function Calc(...$args): array
+// {
+//     // echo $args[0];
+//     return $args;
+// }
+
+
+// $x = "10";
+// $y = "20";
+
+// $calc = Calc($x, $y, null, true, "hello", 10.2);
+
+// var_dump($calc);
