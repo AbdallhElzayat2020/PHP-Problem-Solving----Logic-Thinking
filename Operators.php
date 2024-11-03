@@ -187,8 +187,8 @@ echo $m . "<br>"; //10
 // echo strlen($b);
 
 
-$arr = ['php', 'laravel'];
-$a = 'Hello from php';
+// $arr = ['php', 'laravel'];
+// $a = 'Hello from php';
 
 // Option 1: Print the array using print_r() or var_dump()
 // $result = explode(' ', $a);
@@ -202,11 +202,13 @@ $a = 'Hello from php';
 
 // echo implode(',', $arr);  // remove , or separator between '' prints "Hello, from, php"
 
-echo $result = implode(',', $arr);
+// echo $result = implode(',', $arr);
 
 // الخلاصة بالعربي اهوة 
 // الاتنين بيقصو وبقلهم في اول بارمتير قص من اول كذا والحاجة التانية بقلو قص في المتغير او المصفوفة دي 
 
+// $arr = ['php', 'laravel'];
+// $a = 'Hello from php';
 // explode => convert string to array   => explode(' ', $a)
 
 // implode => convert array to string   => implode(',', $arr)
