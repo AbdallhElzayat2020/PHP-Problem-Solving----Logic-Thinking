@@ -109,3 +109,31 @@ echo $m . "<br>"; //10
 // $calc = Calc($x, $y, null, true, "hello", 10.2);
 
 // var_dump($calc);
+
+
+
+
+// scope in functions
+
+
+$x = "10";
+$y = "20";
+
+// Global Scope
+function Calc()
+{
+    // local Scope
+    // $x = 20;
+    // $y = 20;
+    // echo $x * $y;
+
+    // global $x, $y;
+    // echo $GLOBALS["x"];
+
+    // Static Scope
+    static $x = 20;
+    static $y = 20;
+    echo $x * $y;
+}
+
+Calc();
