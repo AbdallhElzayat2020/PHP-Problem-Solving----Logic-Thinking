@@ -54,3 +54,23 @@ echo $m . "<br>"; //10
 // echo "<br>";
 // echo $a += $b;
 // echo "<br>";
+
+// declare Html Inside Php Code
+// <html>
+
+// <body>
+//     Welcome to operators <br>
+
+//     <?php echo "Hello World"; 
+// </body>
+//</html>
+
+
+
+// Declare Function In php
+function Calc($x, $y): void
+{
+    echo $x + $y;
+};
+
+Calc(10, 20);
