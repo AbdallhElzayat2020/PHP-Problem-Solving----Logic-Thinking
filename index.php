@@ -67,7 +67,7 @@ function HireDriver($age, $license, $wasta): void
     } else {
         echo "Rejected Driver" . "<br>";
     }
-}
+} 
 
 HireDriver(21, true, 0); //Hire Driver
 HireDriver(21, true, 1); //Hire Driver
@@ -76,3 +76,32 @@ HireDriver(21, false, 0); //Rejected Driver
 HireDriver(20, true, 0); //Rejected Driver
 HireDriver(20, false, 0); //Rejected Driver
 */
+
+////////////////////////////////
+
+
+// ICPC Assiut University Community
+
+// Print Hello + Name
+// $a = readline('');
+// echo 'Hello, ' . $a;
+
+/*-------------------------------------------*/
+// B. Basic Data Types
+
+/*
+fscanf(STDIN, '%d %d %c %f %f', $a, $b, $c, $d, $e);
+
+echo $a . "\n", $b . "\n", $c . "\n", $d . "\n", $e;
+
+// or 
+echo implode("\n", explode(' ', readline()));
+*/
+
+/*-------------------------------------------*/
+// C. Simple Calculator
+fscanf(STDIN, '%d %d', $a, $b);
+
+echo $a . ' + ' . $b . ' = ' . ($a + $b) . "\n";
+echo $a . ' * ' . $b . ' = ' . ($a * $b) . "\n";
+echo $a . ' - ' . $b . ' = ' . ($a - $b) . "\n";
