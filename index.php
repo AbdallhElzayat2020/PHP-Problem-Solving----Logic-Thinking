@@ -100,8 +100,8 @@ echo implode("\n", explode(' ', readline()));
 
 /*-------------------------------------------*/
 // C. Simple Calculator
-fscanf(STDIN, '%d %d', $a, $b);
+// fscanf(STDIN, '%d %d', $a, $b);
 
-echo $a . ' + ' . $b . ' = ' . ($a + $b) . "\n";
-echo $a . ' * ' . $b . ' = ' . ($a * $b) . "\n";
-echo $a . ' - ' . $b . ' = ' . ($a - $b) . "\n";
+// echo $a . ' + ' . $b . ' = ' . ($a + $b) . "\n";
+// echo $a . ' * ' . $b . ' = ' . ($a * $b) . "\n";
+// echo $a . ' - ' . $b . ' = ' . ($a - $b) . "\n";
